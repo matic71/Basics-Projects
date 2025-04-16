@@ -1,0 +1,50 @@
+.container{
+    max-width: 1400px;
+	margin: auto;
+	border: 5px solid rgb(0, 0, 0);
+	border-radius: 30px;
+
+	background-color: rgba(41, 36, 36, 0.3);
+}
+body{
+    background-color: rgb(170, 161, 161);
+}
+.movie{
+
+   
+	border-bottom: 1px solid rgb(63, 54, 54);
+    margin: 20px;
+
+}
+.movie h3 {
+
+    color: rgb(87, 31, 31);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+ button{
+
+    width: 80px;
+
+    height: 30px;
+    font-size: 16px;
+    background-color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+}
+.movie p {
+
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+.star{
+
+    color: gold;
+}
+.TotalPrice{
+
+font-size: 30px;
+color: white;
+margin-left: 20px;
+
+}

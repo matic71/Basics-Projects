@@ -1,0 +1,151 @@
+.section  {
+    box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body {
+    
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+    }
+    .section {
+    
+        height: 100vh;
+    }
+    
+    
+    
+    
+    .section1 h1{
+    
+    
+    text-align: center;
+    line-height: 100vh;
+    
+    }
+    .section1 h1 span{
+    
+    
+        opacity: 0;
+        transform: translateY(50px);
+        
+        }
+    
+    .section .animation{
+    
+    transition: all 0.3s ease;
+    transform: translateY(0);
+    opacity: 1;
+    
+    }
+    
+    .border-line  { 
+    
+    height: 3px;
+    width: 0;
+    background-color: white;
+    transition: all 0.5s ease;
+    
+    
+    }
+    .section2 .images{
+        display: flex;
+    }
+    
+    .section2 .images img {
+    
+        width: 50%;
+        transition: all 1s ease;
+        opacity: 0;
+    }
+    
+    
+    
+    .section2 .images img.slideFromLeft{
+    transform: translateX(-50%);
+    
+    }
+    
+    
+    .section2 .images img.slideFromRight{
+        transform: translateX(50%);
+       
+        }
+        
+        .section2 .images img.animated {
+    
+           
+            transform: translateX(0);
+            opacity: 1;
+        }
+        
+
+
+        .section2 button{
+
+        display: block;
+        align-items: center;
+        justify-content: center;
+         margin-right: 10px;
+         width: 50vh;
+         height: 60px;
+         background-color: rgb(100, 21, 21);
+         margin-top: 50px;
+        
+        }
+        .container{
+
+
+            
+                display: flex;
+                align-items: center;
+                justify-content: center;
+               margin-top: 100px;
+               margin-bottom: 150px;
+        }
+
+        .rotate{
+              
+            display: flex;
+            align-items: center;
+            justify-content: center;
+                border-radius: 2vh;
+                background-color: aqua;
+                height: 200px;
+                width: 200px;
+                animation-name: animacija;
+                animation-duration: 3s;
+                animation-iteration-count: infinite;
+               color: white;
+               font-size: 1.35rem;
+               font-family: 'Courier New', Courier, monospace;
+               
+              
+
+        }
+        @keyframes animacija{
+
+       0%{
+
+           
+           
+       }
+       50%{
+    
+        transform: rotate(0deg) scale(2);
+        border-radius: 0;
+        transform-origin: center center;
+
+       }
+      100%{
+        transform: rotate(360deg);
+        border-radius: 50%;
+        transform-origin: center center;
+
+      }
+
+        }
+

@@ -1,0 +1,35 @@
+#pisanje{
+margin-top: 2%;
+margin-bottom: 3%;
+margin-left: 30%;
+ height: 1cm;
+width: 15cm;
+}
+#ToDoList{
+
+    background-color: green;
+  
+    
+}
+.dugme{
+    height: 0.8cm;
+    width: 2cm;
+    margin-bottom: 3%;
+}
+.novidiv{
+
+color: aqua;
+    font-size: 30px;
+     background-color: rgb(5, 75, 75);
+
+}
+.novibutton{
+
+
+
+    height: 0.8cm;
+    width: 2cm;
+    margin-bottom: 3%;
+    background-color: red;
+
+}
